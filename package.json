@@ -1,0 +1,25 @@
+{
+	"name": "private-fields",
+	"version": "0.0.0",
+	"description": "What private fields does this object have?",
+	"main": "index.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/ljharb/private-fields.git"
+	},
+	"keywords": [
+		"class",
+		"private",
+		"fields",
+		"proposal"
+	],
+	"author": "Jordan Harband <ljharb@gmail.com>",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/ljharb/private-fields/issues"
+	},
+	"homepage": "https://github.com/ljharb/private-fields#readme"
+}
