@@ -4,6 +4,8 @@
 	"description": "What private fields does this object have?",
 	"main": "index.js",
 	"scripts": {
+		"lint": "eslint --ext=.js,.mjs .",
+		"pretest": "npm run lint",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -21,5 +23,10 @@
 	"bugs": {
 		"url": "https://github.com/ljharb/private-fields/issues"
 	},
-	"homepage": "https://github.com/ljharb/private-fields#readme"
+	"homepage": "https://github.com/ljharb/private-fields#readme",
+	"devDependencies": {
+		"@ljharb/eslint-config": "^17.5.1",
+		"eslint": "^7.19.0",
+		"eslint-plugin-node": "^11.1.0"
+	}
 }

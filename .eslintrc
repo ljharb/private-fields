@@ -1,0 +1,11 @@
+{
+	"root": true,
+
+	"extends": ["@ljharb", "@ljharb/eslint-config/node/latest"],
+
+	"plugins": ["node"],
+
+	"rules": {
+		"node/no-unsupported-features/es-syntax": 2,
+	},
+}
