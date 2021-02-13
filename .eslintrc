@@ -6,6 +6,21 @@
 	"plugins": ["node"],
 
 	"rules": {
+		"eqeqeq": [2, "allow-null"],
+		"max-lines-per-function": 0,
 		"node/no-unsupported-features/es-syntax": 2,
+		"sort-keys": 0,
 	},
+
+	"overrides": [
+		{
+			"files": "**/*.mjs",
+			"rules": {
+				"node/no-unsupported-features/es-syntax": [1, {
+					"version": "^12.17 || ^13.7 || >= 14",
+				}],
+				"no-restricted-exports": 0,
+			},
+		},
+	],
 }
