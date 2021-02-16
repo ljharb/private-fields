@@ -21,7 +21,9 @@
 		"tests-only": "nyc tape 'test/**/*.js'",
 		"tests-esm": "nyc node test/index.mjs",
 		"test": "npm run tests-only && npm run tests-esm",
-		"posttest": "aud --production"
+		"posttest": "aud --production",
+		"version": "auto-changelog && git add CHANGELOG.md",
+		"postversion": "auto-changelog && git add CHANGELOG.md && git commit --no-edit --amend && git tag -f \"v$(node -e \"console.log(require('./package.json').version)\")\""
 	},
 	"repository": {
 		"type": "git",
@@ -45,6 +47,7 @@
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.5.1",
 		"aud": "^1.1.4",
+		"auto-changelog": "^2.2.1",
 		"es-value-fixtures": "^1.2.1",
 		"eslint": "^7.19.0",
 		"eslint-plugin-node": "^11.1.0",
@@ -59,5 +62,13 @@
 		"has": "^1.0.3",
 		"has-private-fields": "^1.1.0",
 		"object-inspect": "^1.9.0"
+	},
+	"auto-changelog": {
+		"output": "CHANGELOG.md",
+		"template": "keepachangelog",
+		"unreleased": false,
+		"commitLimit": false,
+		"backfillLimit": false,
+		"hideCredit": true
 	}
 }
