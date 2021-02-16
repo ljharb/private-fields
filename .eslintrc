@@ -22,5 +22,15 @@
 				"no-restricted-exports": 0,
 			},
 		},
+		{
+			"files": "test/**/*.js",
+			"rules": {
+				"func-style": 0,
+				"max-lines-per-function": 0,
+				"max-params": 0,
+				"no-await-in-loop": 1,
+				"no-new-func": 1,
+			},
+		},
 	],
 }

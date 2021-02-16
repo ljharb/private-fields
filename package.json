@@ -18,7 +18,10 @@
 	"scripts": {
 		"lint": "eslint --ext=.js,.mjs .",
 		"pretest": "npm run lint",
-		"test": "echo \"Error: no test specified\" && exit 1"
+		"tests-only": "nyc tape 'test/**/*.js'",
+		"tests-esm": "nyc node test/index.mjs",
+		"test": "npm run tests-only && npm run tests-esm",
+		"posttest": "aud --production"
 	},
 	"repository": {
 		"type": "git",
@@ -41,8 +44,13 @@
 	"homepage": "https://github.com/ljharb/private-fields#readme",
 	"devDependencies": {
 		"@ljharb/eslint-config": "^17.5.1",
+		"aud": "^1.1.4",
+		"es-value-fixtures": "^1.2.1",
 		"eslint": "^7.19.0",
-		"eslint-plugin-node": "^11.1.0"
+		"eslint-plugin-node": "^11.1.0",
+		"nyc": "^15.1.0",
+		"symbol.prototype.description": "^1.0.3",
+		"tape": "^5.1.1"
 	},
 	"engines": {
 		"node": ">= 8.3"
