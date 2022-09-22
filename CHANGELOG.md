@@ -5,6 +5,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.1](https://github.com/ljharb/private-fields/compare/v1.0.0...v1.0.1) - 2022-09-22
+
+### Commits
+
+- [Dev Deps] update `eslint`, `@ljharb/eslint-config`, `aud`, `auto-changelog`, es-value-fixtures`, `symbol.prototype.description`, `tape` [`4cc5e1b`](https://github.com/ljharb/private-fields/commit/4cc5e1bd7b58caec3348f57fe01c19aa0b4a89b9)
+- [readme] fix readme links [`e367775`](https://github.com/ljharb/private-fields/commit/e367775a2cabd79145ff43558655ec302791ea23)
+- [eslint] fix errors [`f04344c`](https://github.com/ljharb/private-fields/commit/f04344c4bd353421788524526a94fb9ebcf59011)
+- [Deps] update `object-inspect` [`bca08f2`](https://github.com/ljharb/private-fields/commit/bca08f23698d214ad3992b34efd17442697e1e98)
+
 ## v1.0.0 - 2021-02-16
 
 ### Commits
