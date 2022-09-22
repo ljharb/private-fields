@@ -45,15 +45,15 @@
 	},
 	"homepage": "https://github.com/ljharb/private-fields#readme",
 	"devDependencies": {
-		"@ljharb/eslint-config": "^17.5.1",
-		"aud": "^1.1.4",
-		"auto-changelog": "^2.2.1",
-		"es-value-fixtures": "^1.2.1",
-		"eslint": "^7.19.0",
+		"@ljharb/eslint-config": "^21.0.0",
+		"aud": "^2.0.1",
+		"auto-changelog": "^2.4.0",
+		"es-value-fixtures": "^1.4.2",
+		"eslint": "^8.8.0",
 		"eslint-plugin-node": "^11.1.0",
 		"nyc": "^15.1.0",
-		"symbol.prototype.description": "^1.0.3",
-		"tape": "^5.1.1"
+		"symbol.prototype.description": "^1.0.5",
+		"tape": "^5.6.1"
 	},
 	"engines": {
 		"node": ">= 8.3"
