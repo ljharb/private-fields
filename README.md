@@ -84,14 +84,14 @@ assert.equal(symbol.description, Symbol.iterator.description); // but a symbol w
 ## Tests
 Simply clone the repo, `npm install`, and run `npm test`
 
-[package-url]: https://npmjs.org/package/private-fiels
+[package-url]: https://npmjs.org/package/private-fields
 [npm-version-svg]: https://versionbadg.es/ljharb/private-fields.svg
 [deps-svg]: https://david-dm.org/ljharb/private-fields.svg
 [deps-url]: https://david-dm.org/ljharb/private-fields
 [dev-deps-svg]: https://david-dm.org/ljharb/private-fields/dev-status.svg
 [dev-deps-url]: https://david-dm.org/ljharb/private-fields#info=devDependencies
-[npm-badge-png]: https://nodei.co/npm/private-fiels.png?downloads=true&stars=true
-[license-image]: https://img.shields.io/npm/l/private-fiels.svg
+[npm-badge-png]: https://nodei.co/npm/private-fields.png?downloads=true&stars=true
+[license-image]: https://img.shields.io/npm/l/private-fields.svg
 [license-url]: LICENSE
-[downloads-image]: https://img.shields.io/npm/dm/private-fiels.svg
-[downloads-url]: https://npm-stat.com/charts.html?package=private-fiels
+[downloads-image]: https://img.shields.io/npm/dm/private-fields.svg
+[downloads-url]: https://npm-stat.com/charts.html?package=private-fields
