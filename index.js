@@ -71,7 +71,7 @@ module.exports = async function getPrivateFields(object) {
 			} = v;
 
 			if (has(v, 'value')) {
-				value = v.value;
+				({ value } = v);
 			} else if (has(v, 'unserializableValue')) {
 				if (unserializableValue === 'Infinity') {
 					value = Infinity;

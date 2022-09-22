@@ -42,6 +42,7 @@ function testField(t, instance, value, name, field, accessorType) {
 				},
 				`${inspect(instance)} has the expected ${name} private field: set to a function with toString ${inspect(expected)}`,
 			);
+			// eslint-disable-next-line prefer-named-capture-group
 			t.match(field.description, new RegExp(`#?${value.toString().replace(/([()./])/g, '\\$1')}$`));
 		} else {
 			t.deepLooseEqual(
