@@ -1,6 +1,6 @@
 'use strict';
 
-const has = require('has');
+const hasOwn = require('hasown');
 const inspect = require('object-inspect');
 const hasPrivateFields = require('has-private-fields')();
 const inspector = hasPrivateFields && require('inspector'); // eslint-disable-line global-require
@@ -70,9 +70,9 @@ module.exports = async function getPrivateFields(object) {
 				unserializableValue,
 			} = v;
 
-			if (has(v, 'value')) {
+			if (hasOwn(v, 'value')) {
 				({ value } = v);
-			} else if (has(v, 'unserializableValue')) {
+			} else if (hasOwn(v, 'unserializableValue')) {
 				if (unserializableValue === 'Infinity') {
 					value = Infinity;
 				} else if (unserializableValue === '-Infinity') {
