@@ -63,7 +63,7 @@
 	"dependencies": {
 		"has": "^1.0.3",
 		"has-private-fields": "^1.1.0",
-		"object-inspect": "^1.12.2"
+		"object-inspect": "^1.13.1"
 	},
 	"auto-changelog": {
 		"output": "CHANGELOG.md",
