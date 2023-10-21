@@ -5,6 +5,16 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/)
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [v1.0.2](https://github.com/ljharb/private-fields/compare/v1.0.1...v1.0.2) - 2023-10-20
+
+### Commits
+
+- [meta] use `npmignore` to autogenerate an npmignore file [`5e655ea`](https://github.com/ljharb/private-fields/commit/5e655eae84a5c3338db518670971706c18cce40b)
+- [actions] update rebase action [`0ec9af4`](https://github.com/ljharb/private-fields/commit/0ec9af49a5bb67eaae7e6c9c4c5ba17aa89835ce)
+- [Refactor] use `hasown` instead of `has` [`6254a61`](https://github.com/ljharb/private-fields/commit/6254a61ea8dd5f7fb1fed72d9a8449efaed3b7de)
+- [Dev Deps] update `@ljharb/eslint-config`, `aud`, `tape` [`230f636`](https://github.com/ljharb/private-fields/commit/230f636bdfc00c7623396b064f9221b96b772285)
+- [Deps] update `object-inspect` [`68b8eb4`](https://github.com/ljharb/private-fields/commit/68b8eb4fb2cd82524bee3b5c6bda2e0ac8581809)
+
 ## [v1.0.1](https://github.com/ljharb/private-fields/compare/v1.0.0...v1.0.1) - 2022-09-22
 
 ### Commits
